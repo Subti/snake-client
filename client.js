@@ -16,7 +16,7 @@ const connect = function () {
 
   conn.on("connect", () => {
     console.log("We are in bois")
-    conn.write("Name: DOG")
+    conn.write("Name: SSJ")
   });
 
   return conn;
